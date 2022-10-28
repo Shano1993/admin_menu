@@ -23,10 +23,13 @@ header {
 nav {
     width: 30rem;
     padding: 2rem;
+    cursor: ew-resize;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-nav::after {
-
+nav:hover {
+    border-right: #4097ce;
 }
 
 header > div {
